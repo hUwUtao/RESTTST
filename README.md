@@ -1,5 +1,9 @@
 # TheSieuToc
 > A minecraft plugin that allows players donate via TheSieuTocAPI.
+> In this fork:
+[X] Eat soup
+[] Allow using REST Api to call napthe function
+[] Allow using REST Api to trigger command /!\ (Do not connect from the client tho)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=TheSieuToc&metric=alert_status)](https://sonarcloud.io/dashboard?id=TheSieuToc)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=TheSieuToc&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=TheSieuToc)
