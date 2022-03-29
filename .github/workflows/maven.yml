@@ -10,7 +10,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  plugin:
     runs-on: alpine_latest
     steps:
     - uses: actions/checkout@v3
@@ -22,5 +22,15 @@ jobs:
         cache: maven
     - name: Build main plugin
       run: mvn clean package install
+  papie:
+    runs-on: alpine_latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: JDK Setup
+      uses: actions/setup-java@v3
+      with:
+        java-version: '11'
+        distribution: 'microsoft'
+        cache: maven
     - name: Build PAPI expansion
       run: mvn clean package
